@@ -1,0 +1,351 @@
+@prefix bss: <http://example.org/bss/> .
+@prefix dm: <http://example.org/dilemma/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ==========================================
+# Instances (bss-Instance)
+# ==========================================
+
+bss:A00001 a bss:Person ;
+    rdfs:label "쿠치키 뱌쿠야"@ko ;
+    bss:groupName "등장 인물"@ko ;
+    rdfs:comment "쿠치키 가문의 28대 당주이자 호정 13대 6번대 대장으로, 이 데이터셋 딜레마의 주체이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" ;
+    bss:note "각 회차와 해당 데이터에 대한 이해도가 높아서 착실한 데이터가 되는 것 같습니다."@ko .
+
+bss:A00002 a bss:Person ;
+    rdfs:label "쿠치키 루키아"@ko ;
+    bss:groupName "등장 인물"@ko ;
+    rdfs:comment "쿠치키 가문의 양녀이자 호정 13대 13번대 소속 사신이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00003 a bss:Person ;
+    rdfs:label "쿠로사키 이치고"@ko ;
+    bss:groupName "등장 인물"@ko ;
+    rdfs:comment "루키아에게 사신의 힘을 받아 사신 대행으로 활동하는 고등학생이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00004 a bss:Person ;
+    rdfs:label "쿠치키 히사나"@ko ;
+    bss:groupName "등장 인물"@ko ;
+    rdfs:comment "쿠치키 뱌쿠야의 아내이자 쿠치키 루키아의 친언니로, 이야기가 시작되기 전에 세상을 떠났다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00005 a bss:Place ;
+    rdfs:label "소울소사이어티"@ko ;
+    bss:groupName "작중 장소"@ko ;
+    rdfs:comment "현세에서 죽은 영혼이 인도되어 가는 사후 세계이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00006 a bss:Concept ;
+    rdfs:label "사신"@ko ;
+    bss:groupName "세계관 용어"@ko ;
+    rdfs:comment "현세에 남은 영혼을 소울 소사이어티로 인도하고 호로를 정화하는 존재이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00007 a bss:Organization ;
+    rdfs:label "호정 13대"@ko ;
+    bss:groupName "작중 단체"@ko ;
+    rdfs:comment "정령정을 지키는 사신들의 군사 조직으로, 13개 번대마다 대장·부대장·대원을 둔다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00008 a bss:Work ;
+    rdfs:label "블리치"@ko ;
+    bss:groupName "작품"@ko ;
+    rdfs:comment "쿠보 타이토가 2001년부터 2016년까지 주간 소년 점프에 연재한 만화로, 이 데이터셋은 그중 소울 소사이어티편을 다룬다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00009 a bss:Concept ;
+    rdfs:label "만화"@ko ;
+    bss:groupName "유형"@ko ;
+    rdfs:comment "칸으로 나눈 그림과 글로 이야기를 전하는 형식이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00010 a bss:Person ;
+    rdfs:label "쿠보타이토"@ko ;
+    bss:groupName "실재 인물"@ko ;
+    rdfs:comment "1977년 출생으로 블리치를 쓰고 그린 일본의 만화가이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00011 a bss:Episode ;
+    rdfs:label "BSS 9권 71화"@ko ;
+    bss:groupName "회차"@ko ;
+    rdfs:comment "소울 소사이어티편이 시작되는 회차이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00012 a bss:Episode ;
+    rdfs:label "BSS 18권 152화"@ko ;
+    bss:groupName "회차"@ko ;
+    rdfs:comment "쿠로사키 이치고의 전투 구간이 시작되는 회차이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00013 a bss:Episode ;
+    rdfs:label "BSS 19권 161화"@ko ;
+    bss:groupName "회차"@ko ;
+    rdfs:comment "쿠로사키 이치고의 전투가 실린 회차이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00014 a bss:Episode ;
+    rdfs:label "BSS 21권 179화"@ko ;
+    bss:groupName "회차"@ko ;
+    rdfs:comment "히사나와의 약속과 부모님 앞에서 한 맹세를 밝히는 회차이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00015 a bss:Concept ;
+    rdfs:label "현세"@ko ;
+    bss:groupName "작중 장소"@ko ;
+    rdfs:comment "인간이 살아 있는 동안 지내는 세계이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00016 a bss:Concept ;
+    rdfs:label "웨코문드"@ko ;
+    bss:groupName "작중 장소"@ko ;
+    rdfs:comment "호로들이 사는 세계이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00017 a bss:Concept ;
+    rdfs:label "호로"@ko ;
+    bss:groupName "세계관 용어"@ko ;
+    rdfs:comment "현세에 미련이 남아 변질된 악령이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00018 a bss:Concept ;
+    rdfs:label "정령정"@ko ;
+    bss:groupName "작중 장소"@ko ;
+    rdfs:comment "소울소사이어티의 수도, 이곳에는 사신들이 거주한다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00019 a bss:Organization ;
+    rdfs:label "중앙46실"@ko ;
+    bss:groupName "작중 단체"@ko ;
+    rdfs:comment "소울소사이어티 내 절대적 의결 기관이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00020 a bss:Dilemma ;
+    rdfs:label "쿠치키 뱌쿠야: 루키아를 구할 것인가, 규율을 지킬 것인가"@ko ;
+    bss:groupName "딜레마"@ko ;
+    rdfs:comment "죽은 아내 히사나와 한 약속과 죽은 부모님 앞에서 한 맹세가 부딪치는 쿠치키 뱌쿠야의 선택이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00021 a bss:Option ;
+    rdfs:label "루키아 구출 시도"@ko ;
+    bss:groupName "선택지"@ko ;
+    rdfs:comment "히사나와의 약속을 지키며, 이치고와 함께 중앙 46실의 판결에 맞서는 선택지이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00022 a bss:Option ;
+    rdfs:label "규율을 지킨다"@ko ;
+    bss:groupName "선택지"@ko ;
+    rdfs:comment "부모님 앞에서 한 맹세를 지켜, 루키아를 구하러 온 이치고와 싸우고 처형을 그대로 두는 선택지이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00023 a bss:Event ;
+    rdfs:label "쿠치키 뱌쿠야의 루키아 보호"@ko ;
+    bss:groupName "사건"@ko ;
+    rdfs:comment "이치고에게 패한 뒤 뱌쿠야가 스스로 루키아를 지키는 쪽으로 돌아선 일이다. 작업자 해석: 두 가치 사이의 우선순위가 바뀌었다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00024 a bss:Event ;
+    rdfs:label "중앙 46실의 쿠치키 루키아 사형 판결"@ko ;
+    bss:groupName "사건"@ko ;
+    rdfs:comment "루키아가 인간에게 사신의 힘을 넘긴 죄로 중앙 46실이 내린 사형 판결이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00025 a bss:Event ;
+    rdfs:label "쿠치키 뱌쿠야의 부모님 앞 맹세"@ko ;
+    bss:groupName "사건"@ko ;
+    rdfs:comment "뱌쿠야가 죽은 부모님의 묘 앞에서 다시는 규율을 어기지 않겠다고 맹세한 일이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00026 a bss:Event ;
+    rdfs:label "쿠치키 뱌쿠야와 쿠치키 히사나의 약속"@ko ;
+    bss:groupName "사건"@ko ;
+    rdfs:comment "히사나가 죽기 전 동생 루키아를 지켜 달라고 부탁하고, 뱌쿠야가 이를 받아들인 일이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00027 a bss:Event ;
+    rdfs:label "쿠치키 뱌쿠야와 쿠로사키 이치고의 전투"@ko ;
+    bss:groupName "사건"@ko ;
+    rdfs:comment "루키아의 처형을 막으러 온 이치고와 그를 막아선 뱌쿠야가 맞붙은 전투이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00028 a bss:Organization ;
+    rdfs:label "쿠치키 가문"@ko ;
+    bss:groupName "작중 단체"@ko ;
+    rdfs:comment "소울 소사이어티의 귀족 가문으로, 뱌쿠야가 당주이고 루키아가 양녀로 들어온 집안이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00029 a bss:Event ;
+    rdfs:label "쿠치키 루키아의 사신 힘 양도"@ko ;
+    bss:groupName "사건"@ko ;
+    rdfs:comment "루키아가 부상을 입은 상태에서 이치고에게 사신의 힘을 넘긴 일로, 소울 소사이어티에서는 중죄에 해당한다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00030 a bss:Episode ;
+    rdfs:label "블리치 8권 65화"@ko ;
+    bss:groupName "회차"@ko ;
+    rdfs:comment "쿠치키 루키아의 사형 판결이 드러나는 회차이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261013" .
+
+bss:A00031 a bss:Fact ;
+    rdfs:label "히사나가 루키아의 친언니라는 사실"@ko ;
+    bss:groupName "사실"@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261030" .
+
+bss:A00032 a bss:Event ;
+    rdfs:label "히사나와 뱌쿠야의 결혼"@ko ;
+    bss:groupName "사건"@ko ;
+    rdfs:comment "뱌쿠야가 신분에 따른 주변의 만류에도 불구하고 히사나와 결혼한 사건이다."@ko ;
+    bss:dataset "BSS" ;
+    bss:recorder "한준/소윤" ;
+    bss:recordDate "20261030" .
+
+bss:A00033 a bss:Time ;
+    rdfs:label "55년 전"@ko ;
+    bss:groupName "작중 시간"@ko ;
+    rdfs:comment "작중 55년전을 의미한다."@ko ;
+    bss:dataset "BSS" .
+
+bss:A00034 a bss:Time ;
+    rdfs:label "50년 전"@ko ;
+    bss:groupName "작중 시간"@ko ;
+    rdfs:comment "작중 50년전을 의미한다."@ko ;
+    bss:dataset "BSS" .
+
+bss:A00035 a bss:Rule ;
+    rdfs:label "귀족 가문은 하층민과 결혼하지 않는다."@ko ;
+    bss:groupName "규율"@ko ;
+    bss:dataset "BSS" .
+
+bss:A00036 a bss:Value ;
+    rdfs:label "대장으로서 규율 수호와 모범"@ko ;
+    bss:groupName "가치"@ko ;
+    rdfs:comment "귀족이자 대장으로서 규율을 수호하고 모범을 지키는 것에 대한 가치이다."@ko ;
+    bss:dataset "BSS" .
+
+bss:A00037 a bss:Concept ;
+    rdfs:label "여화"@ko ;
+    bss:groupName "세계관 용어"@ko ;
+    rdfs:comment "사신의 인도 없이 소울 소사이어티에 불법적으로 침입한 자를 일컫는다. 사신들은 일반적으로 이들에게 적대적이다."@ko ;
+    bss:dataset "BSS" .
+
+# ==========================================
+# Triples / Relations (bss-triple)
+# ==========================================
+
+bss:A00020 dm:hasDecisionMaker bss:A00001 ;
+    dm:hasOption bss:A00021, bss:A00022 .
+
+bss:A00022 dm:actualChooser bss:A00001 ;
+    bss:breaks bss:A00026 ;
+    bss:leadsTo bss:A00027 ;
+    bss:upholds bss:A00025 .
+
+bss:A00021 bss:breaks bss:A00025 ;
+    bss:location bss:A00005 ;
+    bss:upholds bss:A00026 .
+
+bss:A00026 bss:promisedTo bss:A00004 ;
+    dm:revealedIn bss:A00014 ;
+    bss:narrativeTime bss:A00034 .
+
+bss:A00024 dm:hasCause bss:A00029 ;
+    bss:issuedBy bss:A00019 ;
+    dm:revealedIn bss:A00030 ;
+    bss:leadsTo bss:A00020 .
+
+bss:A00001 schema:memberOf bss:A00007, bss:A00028 ;
+    bss:spouse bss:A00004 ;
+    bss:isAwareOf bss:A00031 ;
+    bss:upholdsValue bss:A00036 .
+
+bss:A00002 schema:memberOf bss:A00007, bss:A00028 ;
+    bss:sibling bss:A00004 ;
+    bss:sisterInLaw bss:A00001 ;
+    bss:adoptedSister bss:A00001 ;
+    bss:isUnawareOf bss:A00026, bss:A00031 .
+
+bss:A00003 bss:colleague bss:A00002 ;
+    bss:location bss:A00015 ;
+    schema:memberOf bss:A00037 .
+
+bss:A00027 bss:causesChangeTo bss:A00023 ;
+    bss:location bss:A00018 .
+
+bss:A00018 bss:containedInPlace bss:A00005 .
+
+bss:A00008 bss:genre bss:A00009 ;
+    bss:creator bss:A00010 .
+
+bss:A00029 bss:location bss:A00015 .
+
+bss:A00032 bss:leadsTo bss:A00025 ;
+    bss:breaks bss:A00035 .
+
+bss:A00025 dm:revealedIn bss:A00014 ;
+    bss:narrativeTime bss:A00033 .
